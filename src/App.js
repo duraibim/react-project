@@ -3,4 +3,17 @@ import './App.css';
 
 export default function App() {
   return (
-    <div className="App">Weather Application</div>);}
+    <div className="App">
+      <h1>Weather Application</h1>
+      <footer>
+        This project was coded by Manal Alduraibi🐞 and is {""} 
+          <a
+            href="https://github.com/duraibim/react-project" 
+            target="_blank"
+            rel="noopener noreferrer"
+          > Open-source code on GitHub</a> 
+          
+          </footer> 
+    </div>
+  );
+}
