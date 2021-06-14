@@ -6,15 +6,19 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-      <h1>Weather Application</h1>
       <Weather defaultCity="New York"/>
       <footer>
-        This project was coded by Manal Alduraibi🐞 and is {""} 
+        This project was coded by Manal Alduraibi🐞 and is Open-sourced on {""} 
           <a
             href="https://github.com/duraibim/react-project" 
             target="_blank"
             rel="noopener noreferrer"
-          > Open-source code on GitHub</a> 
+          >  GitHub</a> and hosted on <a
+          href="https://gallant-bardeen-a1f62f.netlify.app" 
+          target="_blank"
+          rel="noopener noreferrer"
+        > Netlify</a> 
+          
           
           </footer> 
         </div>
